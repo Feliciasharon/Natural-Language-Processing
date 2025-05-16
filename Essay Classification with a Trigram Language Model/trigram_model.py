@@ -5,16 +5,6 @@ import random
 import os
 import os.path
 import numpy as np
-"""
-COMS W4705 - Natural Language Processing - Spring 2025 
-Programming Homework 1 - Trigram Language Models
-Daniel Bauer
-"""
-
-"""
-Name - Felicia Sharon
-UNI - FS2857
-"""
 
 def corpus_reader(corpusfile, lexicon=None): 
     with open(corpusfile,'r') as corpus: 
